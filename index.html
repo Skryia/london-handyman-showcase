@@ -1,20 +1,249 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>London Handyman Services — Trusted Property Repairs Across London</title>
-    <meta name="description" content="Reliable, insured handyman services across London. Painting, carpentry, plumbing, electrical, repairs and assembly — done right, first time." />
-    <meta property="og:title" content="London Handyman Services" />
-    <meta property="og:description" content="Reliable, insured handyman services across London. Quality workmanship, friendly service, quick response." />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main-static.tsx"></script>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>London Handyman Services — Reliable Handyman in London</title>
+  <meta name="description" content="Trusted London handyman services. Repairs, painting, carpentry, plumbing, electrical, furniture assembly and more. Insured, friendly and finished to a standard you'll be proud of." />
+  <link rel="canonical" href="https://londonhandymanservices.co.uk/" />
+
+  <meta property="og:title" content="London Handyman Services" />
+  <meta property="og:description" content="Reliable, insured London handyman team. Repairs, painting, carpentry, plumbing and more." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/hero.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "London Handyman Services",
+    "image": "assets/hero.jpg",
+    "description": "Trusted handyman services across Greater London.",
+    "areaServed": "Greater London",
+    "url": "https://londonhandymanservices.co.uk/",
+    "email": "hello@londonhandymanservices.co.uk",
+    "priceRange": "££"
+  }
+  </script>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header id="nav" class="nav">
+  <div class="container nav-row">
+    <a href="#top" class="brand">
+      <span class="brand-mark"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4l-6 6a2 2 0 1 0 2.83 2.83l6-6a4 4 0 0 0 5.4-5.4l-2.3 2.3-2.83-2.83 2.3-2.3z"/></svg></span>
+      <span class="brand-text"><small>London</small><strong>Handyman Services</strong></span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#work">Recent Work</a>
+      <a href="#why">Why Us</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-gold nav-cta">Get a Free Quote →</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#work">Recent Work</a>
+    <a href="#why">Why Us</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact" class="btn btn-gold">Get a Free Quote →</a>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section id="top" class="hero">
+  <img src="assets/hero.jpg" alt="Professional London handyman at work" class="hero-img" />
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <span class="pill pill-light hero-in"><span class="dot"></span> Trusted across London</span>
+    <h1 class="hero-in d1">Reliable handyman services, <span class="gold">done right the first time.</span></h1>
+    <p class="hero-in d2">From a single shelf to full property repairs — experienced, insured tradesmen you'll happily welcome into your home. Friendly, punctual and finished to a standard you'll be proud of.</p>
+    <div class="hero-in d3 hero-cta">
+      <a href="#contact" class="btn btn-gold">Get a Free Quote →</a>
+      <a href="#work" class="btn btn-ghost">See Recent Work</a>
+    </div>
+    <dl class="hero-in d4 stats">
+      <div><dt>500+</dt><dd>Jobs completed</dd></div>
+      <div><dt>4.9★</dt><dd>Customer rating</dd></div>
+      <div><dt>24h</dt><dd>Response time</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- ============ TRUST BAR ============ -->
+<section class="trust reveal">
+  <div class="container">
+    <ul class="trust-grid">
+      <li><span class="ic">🛡</span><span>Fully Insured</span></li>
+      <li><span class="ic">✓</span><span>Vetted &amp; Verified</span></li>
+      <li><span class="ic">⏱</span><span>Quick Response</span></li>
+      <li><span class="ic">✨</span><span>Quality Workmanship</span></li>
+      <li><span class="ic">☺</span><span>Friendly Service</span></li>
+      <li><span class="ic">●</span><span>No Job Too Small</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section id="services" class="section">
+  <div class="container">
+    <div class="head reveal">
+      <span class="pill">What We Do</span>
+      <h2>Skilled hands for every job around the home.</h2>
+      <p>One trusted team, one phone number — covering everything most properties ever need.</p>
+    </div>
+    <div class="grid grid-4 mt-lg" id="servicesGrid"></div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section id="about" class="section bg-surface">
+  <div class="container about-row">
+    <div class="reveal about-img-wrap">
+      <img src="assets/about.jpg" alt="Friendly experienced London handyman" loading="lazy" class="about-img" />
+      <div class="quote-badge">
+        <div class="stars">★★★★★</div>
+        <p>"Genuinely the best handyman we've used in London."</p>
+        <small>Verified customer · Islington</small>
+      </div>
+    </div>
+    <div class="reveal">
+      <span class="pill">About Us</span>
+      <h2>A small London team that treats your home like our own.</h2>
+      <p class="lead">We're a friendly team of experienced tradesmen serving homes and small businesses across London. Our reputation is built on three things: arriving when we say we will, finishing to a genuinely high standard, and leaving your home as tidy as we found it.</p>
+      <ul class="check-grid">
+        <li>✓ Years of hands-on experience</li>
+        <li>✓ Clean, considerate and tidy</li>
+        <li>✓ Honest, upfront pricing</li>
+        <li>✓ Fully insured for peace of mind</li>
+      </ul>
+      <a href="#contact" class="btn btn-brand mt-lg">Talk to the team →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WORK ============ -->
+<section id="work" class="section">
+  <div class="container">
+    <div class="head reveal">
+      <span class="pill">Recent Work</span>
+      <h2>A small selection of jobs we're proud of.</h2>
+      <p>Real projects from real London homes — finished to a standard we'd want in our own.</p>
+    </div>
+    <div class="gallery mt-lg" id="galleryGrid"></div>
+  </div>
+</section>
+
+<!-- ============ WHY ============ -->
+<section id="why" class="section bg-brand">
+  <div class="container">
+    <div class="head reveal">
+      <span class="pill pill-gold">Why Choose Us</span>
+      <h2 class="invert">The little things that make a big difference.</h2>
+      <p class="invert-sub">We're not the cheapest in London — but we're the team customers call back.</p>
+    </div>
+    <div class="grid grid-4 mt-lg" id="whyGrid"></div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section id="reviews" class="section">
+  <div class="container">
+    <div class="head reveal">
+      <span class="pill">Customer Reviews</span>
+      <h2>Trusted by homeowners across London.</h2>
+      <p>A consistent 5-star reputation built one job at a time.</p>
+    </div>
+    <div class="grid grid-3 mt-lg" id="reviewsGrid"></div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="section bg-surface">
+  <div class="container contact-row">
+    <div class="reveal">
+      <span class="pill">Get in touch</span>
+      <h2>Tell us about the job — we'll handle the rest.</h2>
+      <p class="lead">Send a quick message and we'll come back to you with a clear, no-obligation quote. Most enquiries are answered the same day.</p>
+      <ul class="contact-list">
+        <li><span class="ic-box">📞</span><div><small>Call us</small><strong>Available on request</strong></div></li>
+        <li><span class="ic-box">✉</span><div><small>Email</small><strong>hello@londonhandymanservices.co.uk</strong></div></li>
+        <li><span class="ic-box">📍</span><div><small>Service area</small><strong>All of Greater London</strong></div></li>
+        <li><a href="https://www.facebook.com/profile.php?id=61578172167809" target="_blank" rel="noopener"><span class="ic-box">f</span><div><small>Facebook</small><strong>Message us on Facebook</strong></div></a></li>
+      </ul>
+    </div>
+    <form class="contact-form reveal" id="contactForm" action="https://formsubmit.co/hello@londonhandymanservices.co.uk" method="POST">
+      <input type="hidden" name="_subject" value="New enquiry — London Handyman Services" />
+      <input type="hidden" name="_captcha" value="false" />
+      <div class="form-grid">
+        <label><span>Your name</span><input name="name" required /></label>
+        <label><span>Phone</span><input name="phone" type="tel" /></label>
+        <label class="full"><span>Email</span><input name="email" type="email" required /></label>
+        <label class="full"><span>How can we help?</span><textarea name="message" rows="5" required></textarea></label>
+      </div>
+      <button type="submit" class="btn btn-gold btn-full">Send enquiry →</button>
+      <p id="formMsg" class="form-msg" hidden>Thanks — your message is on its way.</p>
+      <small class="muted">By submitting you agree to be contacted about your enquiry. We never share your details.</small>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="brand">
+        <span class="brand-mark brand-mark-gold"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4l-6 6a2 2 0 1 0 2.83 2.83l6-6a4 4 0 0 0 5.4-5.4l-2.3 2.3-2.83-2.83 2.3-2.3z"/></svg></span>
+        <span class="brand-text"><small>London</small><strong>Handyman Services</strong></span>
+      </div>
+      <p class="footer-blurb">Trusted handyman services across Greater London. Reliable, insured and finished to a standard you'll be proud of.</p>
+    </div>
+    <div>
+      <p class="footer-h">Explore</p>
+      <ul class="footer-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Recent Work</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-h">Connect</p>
+      <ul class="footer-links">
+        <li><a href="https://www.facebook.com/profile.php?id=61578172167809" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="#contact">hello@londonhandymanservices.co.uk</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-row">
+      <p>© <span id="year"></span> London Handyman Services. All rights reserved.</p>
+      <p>Proudly serving Greater London.</p>
+    </div>
+  </div>
+</footer>
+
+<button id="backTop" class="back-top" aria-label="Back to top">↑</button>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
+</body>
 </html>
