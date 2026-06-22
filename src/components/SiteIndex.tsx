@@ -40,23 +40,6 @@ const NAV = [
   { id: "contact", label: "Contact" },
 ];
 
-function Index() {
-  return (
-    <div className="min-h-screen bg-background text-foreground">
-      <Nav />
-      <Hero />
-      <TrustBar />
-      <Services />
-      <About />
-      <Work />
-      <WhyUs />
-      <Reviews />
-      <Contact />
-      <Footer />
-      <BackToTop />
-    </div>
-  );
-}
 
 /* ---------------- Nav ---------------- */
 function Nav() {
